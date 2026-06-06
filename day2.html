@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home AstroNDS</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <img src="IMG_20240317_101040_386.jpg" alt="Logo" class="logo-img">
+            </div>
+            <div class="name"><h1>AstroNDS</h1></div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="camara.html">Camara</a></li>
+                <li><a href="day3.html">Captures</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="logbox">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input_box">
+                <input type="text" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input_box">
+                <input type="password" placeholder="Password" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me
+                </label>
+                <a href="#">Forgot Password?</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="register-link">
+                <p>Don't have an account<a href="#">Register</a></p>
+            </div>
+        </form>
+        <div class="social-icons">
+            <i class='bx bxl-youtube' class="youtube"></i><a href="https://www.youtube.com/@AstroNDS_by_shresth">AstroNDS</a><br>
+            <i class='bx bxl-instagram' class="instagram"><a href="https://www.instagram.com/astrondsshresth">SHRESTH</a></i>
+            </div>
+    </div>
+    <div class="about">
+        <h1 class="about-text">About</h1>
+        <div>
+        <img src="IMG20240805180712.png" alt="AstroNDS" class="about-img">
+    </div>
+    <div class="inf">
+        <p>Name: Shresth<br> bortel: 4 / Brighter rural<br>Village:Nidasoshi<br>experience: 4 years<br>IND U19 Captian 2024<br>Astronomer of the <br>season 2024</p>
+    </div>
+    </div>
+    </div>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .main {
+            width: 100%;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%), url(backiee-296745.jpg);
+            background-position: center;
+            background-size: cover;
+            height:100vh;
+        }
+
+        .navbar {
+            width: 2000px;
+            height: 200px;
+            margin: 0;
+        }
+
+        .icon {
+            width: 170px;
+            height: 170px;
+            position: relative;
+            left:8%;
+            top:8%;
+        }
+        .name{
+            width: 300px;
+            font-family: sans-serif;
+            font-size: 30px;
+            position: relative;
+            left:20%;
+            bottom:35%;
+            transform: translate(-50%, -50%);
+            
+        }
+        .logo-img {
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            position: relative;
+            top: 0;
+            right: 60%;
+        
+        }
+
+        .logo-img:hover {
+            transform: scale(1.1);
+        }
+        h1{
+
+            color: white;
+            transition: color 1s ease;
+        }
+        h1:hover{
+            color: #ff7200;
+            text-shadow: 0 0 5px #00aeff;
+        }
+
+       .menu{
+        width: 400px;
+        height: 70px;
+        position: relative;
+        right: -75%;
+        bottom: 10%;
+        transform: translate(-50%, -50%);
+
+       }
+       ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+       }
+       ul li{
+        list-style: none;
+        margin: 0 20px;
+        display: inline-block;
+        font-size: 40px;
+        
+       }
+       ul li a{
+        text-decoration: none;
+        color: white;
+        font-family: sans-serif;
+        transition: color 0.3s ease;
+       }
+       ul li a:hover{
+        color: #ff7200;
+        text-shadow: 0 0 10px #00aeff;
+       }
+    .logbox{
+    width: 600px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 8px 32px 0 rgba(20, 181, 255, 0.582);
+    transition: transform 0.3s ease;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -70%);
+}
+.logbox h1 {
+   font-size: 36px; 
+   text-align: center;
+}
+.logbox .input_box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input_box input{
+    color: #ffffff;
+width: 100%;
+height: 100%;
+background: transparent;
+border:none;
+outline: none;
+border: 2px solid rgba(255,255,255,.2);
+border-radius: 40px;
+font-size: 16px;
+padding: 20px 45px 20px 20px;
+}
+.input_box input::placeholder{
+    color:#fff; 
+}
+.input_box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.input_box .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin:-15px 0 15px;
+}
+.logbox .remember-forgot label input{
+accent-color: #fff;
+margin-right: 3px;
+}
+.logbox .remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+.logbox .remember-forgot a:hover{
+    text-decoration: underline;
+}
+.logbox .btn{
+    width: 100%;
+    height: 45px;
+    background:#0043fa8c;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    transition: color 1s ease;
+} 
+.logbox .btn:hover{
+    background: #fff;
+
+}
+.logbox .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
+.social-icons{
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+    position: relative;
+    padding: 10px 5px;
+    margin: 10px;
+    left:0;
+    top:0;
+}
+.youtube,.instagram{
+    position: relative;
+    left: 50%;
+    top: 50%;
+}
+.social-icons a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+}
+.social-icons a:hover{
+    color: #fda45c;
+}
+form{
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height:70%;
+}
+.about{
+    width: 1000px;
+    height: 700px;
+    border: 2px solid rgba(20, 181, 255, 0.582);
+    position: relative;
+    left: 70%;
+    top:-35%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(20, 181, 255, 0.582);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    justify-content: center;
+    text-align: center;
+}
+.about-text{
+    font-size: 50px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    left: 20%;
+}
+.about-img{
+    width: 340px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 5px;
+    position: relative;
+    left: -20%;
+    bottom: 0%;
+    transform: translate(-15%, 30%);
+    border: 2px solid rgba(20, 181, 255, 0.582);
+    box-shadow: 0 8px 32px 0 rgba(20, 181, 255, 0.582);
+}
+.inf{
+    font-size: 45px;
+    position: relative;
+    left: 70%;
+    bottom: 10%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 600;
+    transition: color 1s ease;
+}
+.inf:hover{
+    color: #ff7200;
+    text-shadow: 0 0 10px #00aeff;
+}
+    </style>
+</body>
+</html>
